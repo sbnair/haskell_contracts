@@ -1,11 +1,6 @@
 module FuturesContract where
 
 -- ******************************************************************************************************
---  Let's look at an example of going long. It's January and you enter into a futures contract to purchase 
---  100 shares of IBM stock at $50 a share on April 1. The contract has a price of $5,000. But if the market 
---  value of the stock goes up before April 1, you can sell the contract early for a profit. Let's say 
---  the price of IBM stock rises to $52 a share on March 1. If you sell the contract for 100 shares, you'll 
---  fetch a price of $5,200, and make a $200 profit.
 
 {-
 	Contract Characteristics
