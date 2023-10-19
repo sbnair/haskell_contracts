@@ -2,29 +2,6 @@ module FuturesContract where
 
 -- ******************************************************************************************************
 
-{-
-	Contract Characteristics
-
-	Commodity -> IBM
-	Date -> 1st of April
-	Quantity -> 100
-	Share Price -> 50
-
-	from PJ -> When One  scale get
-	
-	share price =  scale (obs double) (one usd) // idea: share price is a time variying quantity
-	
-	represent IBM share price => IBM & Share Price // Brand can be either IBM | Samsung
-
-	now represent share price of a particular brand
-
-	EquityPrice :: Brand  -> sharePrice -> Contract
-
-	application of list (to give the idea of a bulk of shares)
-
-	here we have to model both receiving of cash and payment
-
--}
 
 -- import List
 import Numeric
